@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw_1</title>
+    </head>
+
+<body>
+   
+
+    <script>
+        'use strict';
+        // Task 1 Перевести температуру из грудусов Цельсия в Фаренгейты
+let temperatureCelsius = 29
+let temperatureFareng = (9/5)*temperatureCelsius+32;
+alert(temperatureFareng)
+// Task 2 
+let name = "Василий";
+let admin = name;
+console.log(admin)
+
+// Task 3 
+
+let res1 = console.log(10 + 10 + "10") // складывает 2 первых операнда получается число 20, прибавляем строку "10" получается строка "2010"
+let res2 = console.log(10 + "10" + 10) // складываем слева на право 2 первых операнда получаем строку "1010", прибавляем 3-й операнд число получаем строку "101010"
+let res3 = console.log(10 + 10 + +"10") // складываем первые 2 операнда, результат число 20, прибавляем строку +"10" которая преобразуется в число спомощью унарного плюса _ получаем число 30
+let res4 = console.log(10 / -"") // делим число 10 на пустая строка при помощи унарного минуса станет -0 _ при делении на ноль получаем -infinity (минус бесконечность)
+let res5 = console.log(10 / +"2,5") // делим число 10 на NaN получаем NaN 
+</script>
+</body>
+</html>
